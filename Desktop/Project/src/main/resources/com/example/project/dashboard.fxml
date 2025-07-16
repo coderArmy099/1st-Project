@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d9ead3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DashBoardController">
+   <children>
+      <TextField layoutX="232.0" layoutY="27.0" prefHeight="29.0" prefWidth="151.0" style="-fx-background-color: #a2c4c9;" text="Hey Magi ! Welcome....">
+         <font>
+            <Font name="ArtifaktElement-Black" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="StudyTimer" layoutX="102.0" layoutY="130.0" mnemonicParsing="false" onAction="#studyTimer" prefHeight="69.0" prefWidth="102.0" style="-fx-background-color: #e06666;" text="Study Timer">
+         <font>
+            <Font name="ArtifaktElement-Black" size="12.179104804992676" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
